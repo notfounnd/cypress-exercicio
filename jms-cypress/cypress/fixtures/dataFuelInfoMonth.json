@@ -1,0 +1,26 @@
+{
+    "fuelInfoPos": {
+        "NewVehicleMPG": "14",
+        "NewVehiclePPG": "1",
+        "TradeinMPG": "7",
+        "TradeinPPG": "1",
+        "MilesDriven": "30",
+        "Savings": {
+            "Monthly": "2.14",
+            "Year1": "25.68",
+            "Year3": "77.04"
+        }
+    },
+    "fuelInfoNeg": {
+        "NewVehicleMPG": "7",
+        "NewVehiclePPG": "1",
+        "TradeinMPG": "14",
+        "TradeinPPG": "1",
+        "MilesDriven": "30",
+        "Savings": {
+            "Monthly": "-2.14",
+            "Year1": "-25.68",
+            "Year3": "-77.04"
+        }
+    }
+}
