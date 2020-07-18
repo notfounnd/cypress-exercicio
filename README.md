@@ -83,6 +83,11 @@ Motores aquecidos, hora de levantar vôo. Os testes do projeto foram agrupados e
 * Fuel Savings Analysis - Testes que validam o fluxo de processamento do formulário
 * Componentes - Testes que verificam os elementos da página
 
+<p align="center">
+  <img src="https://i.imgur.com/pzt0YIY.png" />
+  </br>Cypress - Tela de execução dos testes via interface gráfica
+</p>
+
 A estruturação do projeto nesse formato foi feita com o objetivo de aplicar conteúdos e técnicas distintas para os testes desenvolvidos. Através deles é possível verificar a utilização de recursos como:
 
 * Fixtures
@@ -139,6 +144,11 @@ Comando para inicializar o cypress:
 npm run cypress:open
 ```
 
+<p align="center">
+  <img src="https://i.imgur.com/X836Yyn.png" />
+  </br>Cypress - Tela inicial da aplicação
+</p>
+
 Configurando o comando de inicialização:
 ```
 (configuração realizada no arquivo 'package.json')
@@ -152,6 +162,11 @@ Comando para inicializar as execuções:
 
 npm run cypress:run
 ```
+
+<p align="center">
+  <img src="https://i.imgur.com/5Q50nz0.png" />
+  </br>Cypress - Tela de status após encerramento dos testes via terminal
+</p>
 
 **Observação:** A pasta com exemplos de teste padrão que o Cypress cria na instalação foi retirada do projeto.
 
