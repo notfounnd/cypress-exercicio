@@ -70,6 +70,10 @@ export function calculateSavings(settings) {
 
 ### Aprendendo Cypress
 
+Ambientado no contexto do sistema, hora de aprender a sobre a ferramenta [Cypress](https://www.cypress.io/). Apesar de sua rica [documentação](https://docs.cypress.io/), para otimizar meu aprendizado eu apoiei meus estudos no curso '[Testes de aplicações modernas com Cypress](https://www.udemy.com/course/testes-cypress/)'.
+
+O projeto com o conteúdo assimilado durante o curso de aprendizado pode ser verificado [nesse outro repositório aqui](https://github.com/notfounnd/cypress-estudo).
+
 ## 17/07/2020 - 19h00 às 00h00
 
 ### Desenvolvendo o Projeto
