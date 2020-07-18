@@ -173,3 +173,7 @@ npm run cypress:run
 ## 18/07/2020 - 14h00 às 17h00
 
 ### Documentando o Processo
+
+Reservei esse período da tarde para formatar as anotações e compor esse documento sobre o exercício realizado.
+
+Qualquer dúvida, fico à disposição. :smile:
