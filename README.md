@@ -176,4 +176,12 @@ npm run cypress:run
 
 Reservei esse período da tarde para formatar as anotações e compor esse documento sobre o exercício realizado.
 
+Ferramentas utilizadas:
+
+* VS Code
+* Node
+* Cypress
+* Git
+* Cmder
+
 Qualquer dúvida, fico à disposição. :smile:
