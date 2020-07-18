@@ -78,6 +78,83 @@ O projeto com o conteúdo assimilado durante o curso de aprendizado pode ser ver
 
 ### Desenvolvendo o Projeto
 
-## 15/07/2020 - 14h00 às ...
+Motores aquecidos, hora de levantar vôo. Os testes do projeto foram agrupados em 2 suites:
+
+* Fuel Savings Analysis - Testes que validam o fluxo de processamento do formulário
+* Componentes - Testes que verificam os elementos da página
+
+A estruturação do projeto nesse formato foi feita com o objetivo de aplicar conteúdos e técnicas distintas para os testes desenvolvidos. Através deles é possível verificar a utilização de recursos como:
+
+* Fixtures
+* Commands
+* Hooks (Before/After)
+* Helpers (Wrap/Its)
+* Intereção com elementos
+* Utilização de plugins (spath)
+
+Por fim, abaixo temos os passos utilizados na criação, configuração e execução do projeto.
+
+Criando arquivo package.json:
+```
+npm init -y
+```
+
+Adicionar cypress como dependência para o projeto:
+```
+npm install cypress@3.6.0
+```
+
+Instalando plugin 'cypres-xpath':
+```
+npm install cypress-xpath
+```
+
+Configurando plugin 'cypres-xpath':
+```
+(configuração realizada no arquivo 'cypress/support/index.js')
+
+require('cypress-xpath')
+```
+
+Configurando prioridade de busca da ferramenta:
+```
+(configuração realizada no arquivo 'cypress/support/index.js')
+
+Cypress.SelectorPlayground.defaults({
+    selectorPriority: ['id', 'class', 'attributes', 'data-cy', 'data-test', 'data-testid', 'tag', 'nth-child']
+})
+```
+
+Configurando o comando de inicialização:
+```
+(configuração realizada no arquivo 'package.json')
+
+"cypress:open": "cypress open"
+```
+
+Comando para inicializar o cypress:
+```
+(executar na raiz do projeto)
+
+npm run cypress:open
+```
+
+Configurando o comando de inicialização:
+```
+(configuração realizada no arquivo 'package.json')
+
+"cypress:run": "cypress run"
+```
+
+Comando para inicializar as execuções:
+```
+(executar na raiz do projeto)
+
+npm run cypress:run
+```
+
+**Observação:** A pasta com exemplos de teste padrão que o Cypress cria na instalação foi retirada do projeto.
+
+## 18/07/2020 - 14h00 às 17h00
 
 ### Documentando o Processo
