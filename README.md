@@ -95,7 +95,7 @@ A estruturação do projeto nesse formato foi feita com o objetivo de aplicar co
 * Hooks (Before/After)
 * Helpers (Wrap/Its)
 * Intereção com elementos
-* Utilização de plugins (spath)
+* Utilização de plugins (xpath)
 
 Por fim, abaixo temos os passos utilizados na criação, configuração e execução do projeto.
 
