@@ -5,7 +5,7 @@ Execício de automação desenvolvido com o framework Cypress que teve como obje
 
 Conforme sugestão, elaborei esse diário promovendo um acompanhamento simples de como foram os passos das atividades desenvolvidas nesse exercício.
 
-O ambiente testado durante o desenvolvimento do projeto pode ser encontrado [nesse repositório](https://github.com/GitJMSeguradora/react-slingshot) com todas as orientação de como disponibilizá-lo localmente em sua estação de trabalho.
+O ambiente testado durante o desenvolvimento do projeto pode ser encontrado [nesse repositório](https://github.com/GitJMSeguradora/qa-react-slingshot) com todas as orientação de como disponibilizá-lo localmente em sua estação de trabalho.
 
 ## 15/07/2020 - 19h00 às 00h00
 
